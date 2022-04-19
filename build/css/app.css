@@ -851,3 +851,29 @@ h3, .menus {
   padding: 2rem;
   margin: 0 0;
 }
+
+@media (min-width: 768px) {
+  .contenido-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+.contenido-nosotros .imagen {
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
+  border: 2rem solid #ffffff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  .contenido-nosotros .imagen {
+    margin-bottom: 0;
+  }
+}
+.contenido-nosotros .texto blockquote {
+  margin: 0;
+  padding: 2rem;
+  border-left: 1rem solid #5e311e;
+  font-size: 2rem;
+}
