@@ -15,15 +15,15 @@
   </head>
   <body>
     
-    <header class="header header-inicio">
+    <header class="header header-nosotros">
       <div class="contenido-header contenedor">
         <div class="barra">
           <div class="logo">
               <img src="build/img/martin.webp" alt="logo cafeteria">
           </div>
           <nav class="nav-principal">
-            <a class="activo" href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
+            <a href="index.html">Inicio</a>
+            <a class="activo" href="nosotros.html">Nosotros</a>
             <a href="proceso.html">Proceso</a>
             <a href="menu.html">Menú</a>
             <a href="galerias.html">Galerías</a>
@@ -31,11 +31,37 @@
           </nav>
         </div>
         <div class="texto-header">
-          <h1>Disfruta de una deliciosa taza de cafe</h1>
+          <h1>Vive una experiencia da dia</h1>
         </div>
       </div>
     </header>
     <main class="contenedor contenido-principal">
+      <h2><span>Conoce Mas</span>sobre nosotros</h2>
+      <div class="contenido-nosotros">
+        <div class="imagen">
+          <picture>
+            <source
+               srcset="build/img/nosotros_sidebar.avif" 
+               type="image/avif">
+            <source
+               srcset="build/img/nosotros_sidebar.webp" 
+               type="image/webp">
+            <source 
+               srcset="build/img/nosotros_sidebar.jpg" 
+               type="image/jpeg">
+            <img loading="lazy" decoding="async" src="img/imagen.jpg" lazyalt="imagen" width="500" height="300" alt="imagen">
+            </picture>
+        </div>
+        <div class="texto">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea expedita suscipit nihil c
+            ommodi, aperiam eius quis voluptates molestiae maxime at ducimus quae consequuntur sit hic, 
+            accusamus asperiores? Doloremque, asperiores aut.</p>
+            <blockquote>Excelente Sabor!</blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ipsum optio earum molestias doloremque
+             fugit aspernatur soluta libero reprehenderit dignissimos qui vero alias,
+             non perspiciatis expedita tenetur? Recusandae, facere natus!</p>
+        </div>
+      </div>
     </main>
    
     <footer class="footer">
@@ -59,5 +85,6 @@
       </div>
       <div class="copyright">Todos los derechos reservados. Martinoli</div>
     </footer>
+    <script src="/js/imagenes.js"></script>
   </body>
 </html>

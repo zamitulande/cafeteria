@@ -445,6 +445,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 ul {
@@ -544,8 +545,28 @@ h3, .menus {
   }
 }
 
-.header-inicio {
+.notavif.notwebp .header-inicio {
   background-image: url("../img/header_inicio.jpg");
+}
+
+.webp .header-inicio {
+  background-image: url("../img/header_inicio.webp");
+}
+
+.avif .header-inicio {
+  background-image: url("../img/header_inicio.avif");
+}
+
+.notavif.notwebp .header-nosotros {
+  background-image: url("../img/header_nosotros.jpg");
+}
+
+.webp .header-nosotros {
+  background-image: url("../img/header_nosotros.webp");
+}
+
+.avif .header-nosotros {
+  background-image: url("../img/header_nosotros.avif");
 }
 
 .nav-principal {

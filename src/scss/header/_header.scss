@@ -33,6 +33,21 @@
     }
 }
 //header en cada pagina
-.header-inicio{
+.notavif.notwebp .header-inicio{
     background-image: url('../img/header_inicio.jpg');//se debe salir de la carpeta de css y no de scss, porque donde compila es en css
-}   
+}
+.webp .header-inicio{
+    background-image: url('../img/header_inicio.webp');
+}
+.avif .header-inicio{
+    background-image: url('../img/header_inicio.avif');
+}
+.notavif.notwebp .header-nosotros{
+    background-image: url('../img/header_nosotros.jpg');
+}
+.webp .header-nosotros{
+    background-image: url('../img/header_nosotros.webp');
+}
+.avif .header-nosotros{
+    background-image: url('../img/header_nosotros.avif');
+}
