@@ -1,0 +1,28 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.contenido-nosotros{
+    @include m.tablet{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:3rem;
+    }
+    
+    .imagen{
+        @include m.tablet{
+            margin-bottom: 0;
+        }
+            transform: rotate(-6deg);
+            border: 2rem solid v.$blanco;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            margin-bottom: 3rem;
+    }
+    .texto{
+        blockquote{
+            margin: 0;
+            padding: 2rem;    
+            border-left: 1rem solid v.$primario;
+            font-size: 2rem;
+        }
+    }
+}
