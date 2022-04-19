@@ -1,0 +1,32 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.footer{
+    background-color: v.$primario;
+    .contenido-footer{
+        background-color: v.$blanco;
+        padding: 5rem;
+        text-align: center;
+        @include m.tablet{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .footer-box{
+            h3{
+                margin: 2rem 0 0 0;
+                color: v.$secundario;
+                font-weight: 400;
+                font-size: 2rem;
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+    .copyright{
+        text-align: center;
+        color: v.$blanco;
+        padding: 2rem;
+        margin: 0 0;
+    }
+}

@@ -439,6 +439,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 img {
@@ -725,7 +726,7 @@ h3, .menus {
   background-image: url(../img/menu_arriba.svg), url(../img/menu_abajo.svg), linear-gradient(to top, #5e311e, #5e311e);
   padding: 15rem 5rem 20rem 5rem;
   background-repeat: no-repeat;
-  background-position: center 5rem, center 92%, center 100%;
+  background-position: center 5rem, center 97%, center 100%;
   background-size: 150%;
 }
 @media (min-width: 768px) {
@@ -777,7 +778,7 @@ h3, .menus {
 
 .nuestros-testimoniales {
   padding: 10rem 2rem;
-  margin-top: -10rem;
+  margin-top: -7rem;
   background-color: #ffffff;
 }
 @media (min-width: 768px) {
@@ -798,4 +799,34 @@ h3, .menus {
   font-weight: 700;
   color: #5e311e;
   font-size: 2rem;
+}
+
+.footer {
+  background-color: #5e311e;
+}
+.footer .contenido-footer {
+  background-color: #ffffff;
+  padding: 5rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer .contenido-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.footer .contenido-footer .footer-box h3 {
+  margin: 2rem 0 0 0;
+  color: #c39c63;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.footer .contenido-footer .footer-box p {
+  margin: 0;
+}
+.footer .copyright {
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+  margin: 0 0;
 }
