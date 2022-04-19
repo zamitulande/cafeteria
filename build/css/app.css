@@ -569,6 +569,18 @@ h3, .menus {
   background-image: url("../img/header_nosotros.avif");
 }
 
+.notavif.notwebp .header-proceso {
+  background-image: url("../img/header_proceso.jpg");
+}
+
+.webp .header-proceso {
+  background-image: url("../img/header_proceso.webp");
+}
+
+.avif .header-proceso {
+  background-image: url("../img/header_proceso.avif");
+}
+
 .nav-principal {
   display: flex;
   flex-direction: column;

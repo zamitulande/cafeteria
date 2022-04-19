@@ -51,3 +51,12 @@
 .avif .header-nosotros{
     background-image: url('../img/header_nosotros.avif');
 }
+.notavif.notwebp .header-proceso{
+    background-image: url('../img/header_proceso.jpg');
+}
+.webp .header-proceso{
+    background-image: url('../img/header_proceso.webp');
+}
+.avif .header-proceso{
+    background-image: url('../img/header_proceso.avif');
+}
