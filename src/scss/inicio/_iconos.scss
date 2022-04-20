@@ -1,8 +1,7 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 .iconos{
-    margin-top: 5rem;
-  
+    margin-top: 5rem;  
     .listado-iconos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
