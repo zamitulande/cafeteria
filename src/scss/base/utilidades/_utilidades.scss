@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+
+//las utilidades se deben cololcar de ultimas para que se compilen en el app.css de ultimas y sean tomadas
+
+.text-center{
+    text-align: center;
+}
+.bg-primario{
+    background-color: v.$primario;
+}
+.pb-0{
+    padding-bottom: 0;
+}
