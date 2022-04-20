@@ -1,0 +1,48 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;  
+
+.contenido-contacto{
+    @include m.menu{
+        .imagen{
+            display: none;
+        }
+    }    
+    @include m.tablet{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);   
+        align-items: center;
+    }    
+}
+.formulario{
+    .campo{
+        margin-bottom: 2rem;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+    label{
+        text-transform: uppercase;
+        display: block;
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+    input:not([type="submit"]),
+    select{
+        width: 100%;
+        padding: 1rem;
+        border: .5rem solid v.$primario;
+    }
+    input[type="submit"]{
+        background-color: v.$primario;
+        width: 100%;
+        padding: 1rem;
+        color: v.$blanco;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: none;
+        &:hover{
+            cursor: pointer;
+            background-color: v.$secundario;
+        }
+    }
+}

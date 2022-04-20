@@ -15,3 +15,8 @@
         @content;
     }
 }
+@mixin menu {
+    @media (max-width: v.$tablet){
+        @content;
+    }
+}

@@ -78,6 +78,15 @@
 .avif .header-galeria{
     background-image: url('../img/header_galeria.avif') ;
 }
+.notavif.notwebp .header-contacto{
+    background-image: url('../img/header_contacto.jpg')
+}
+.webp .header-contacto{
+    background-image: url('../img/header_contacto.webp');
+}
+.avif .header-contacto{
+    background-image: url('../img/header_contacto.avif') ;
+}
 
 
 

@@ -1,25 +1,9 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;  
-
-
-.notavif.notwebp .contenido-menu,
-.webp .contenido-menu{
-        background-image: url('../img/cafe.jpg'), url('../img/cafe.webp');
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: 100%;
-        aspect-ratio: 3 / 5.8;
-
-        @include m.telefono{
-            aspect-ratio: 3 / 4;
-            
-        }
+.contenido-menu{
         @include m.tablet{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            aspect-ratio: 16 / 6;
-            background-size: 40%;
-            background-position: bottom right;            
+            grid-template-columns: repeat(2, 1fr);     
         }
         .texto{
             p{

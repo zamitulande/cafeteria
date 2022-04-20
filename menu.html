@@ -37,7 +37,7 @@
     <main class="contenedor contenido-principal pb-0">
       <h2><span>Utilizamos los</span>mejores ingredientes</h2>
 
-      <div class="contenido-menu">
+      <div class="contenido-menu">             
         <div class="texto">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
@@ -49,6 +49,17 @@
             explicabo ipsum eaque minima aliquam, ex corrupti!
           </p>
         </div>
+        <div class="imagen">
+          <picture>
+            <source                
+               srcset="build/img/cafe.webp" 
+               type="image/webp">
+            <source                
+               srcset="build/img/cafe.jpg" 
+               type="image/jpeg">
+            <img loading="lazy" decoding="async" src="img/cafe.jpg" lazyalt="imagen" width="500" height="300" alt="imagen">
+            </picture>         
+          </div>  
       </div>
     </main>
     <section class="nuestro-menu">
