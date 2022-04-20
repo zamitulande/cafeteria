@@ -585,6 +585,18 @@ h3, .menus {
   background-image: url("../img/header_menu.avif");
 }
 
+.notavif.notwebp .header-galeria {
+  background-image: url("../img/header_galeria.jpg");
+}
+
+.webp .header-galeria {
+  background-image: url("../img/header_galeria.webp");
+}
+
+.avif .header-galeria {
+  background-image: url("../img/header_galeria.avif");
+}
+
 .nav-principal {
   display: flex;
   flex-direction: column;
